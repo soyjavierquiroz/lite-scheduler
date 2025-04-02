@@ -1,11 +1,11 @@
 .ls-wrapper {
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     font-family: sans-serif;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
 .ls-wrapper h3 {
@@ -41,7 +41,7 @@
 }
 
 .ls-horario:hover {
-    background: #e5dff5;
+    background: #eee1fc;
 }
 
 .ls-horario.activo {
@@ -50,8 +50,30 @@
     border-color: #6f42c1;
 }
 
+#ls-datos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#ls-datos input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ls-btn-confirmar {
+    padding: 12px;
+    margin-top: 10px;
+    background: #6f42c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .ls-confirmacion {
-    margin-top: 1rem;
+    margin-top: 20px;
     text-align: center;
     font-weight: bold;
     color: green;

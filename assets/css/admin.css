@@ -1,17 +1,15 @@
 .perfil-form {
-    background: #f8f8ff;
-    padding: 20px;
     max-width: 600px;
-    border-radius: 8px;
-    font-family: sans-serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    background: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
 }
 
 .perfil-form label {
+    font-weight: bold;
     display: block;
     margin-top: 15px;
-    font-weight: bold;
-    color: #333;
 }
 
 .perfil-form input[type="text"],
@@ -28,30 +26,20 @@
 .dias-checkboxes {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     margin-top: 10px;
-}
-
-.dias-checkboxes label {
-    font-weight: normal;
 }
 
 .perfil-form button {
     margin-top: 20px;
-    padding: 10px 15px;
-    background-color: #a678de;
+    padding: 10px 20px;
+    background-color: #6f42c1;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.perfil-form button:hover {
-    background-color: #8a5ec1;
-}
-
-#ls-mensaje {
-    margin-top: 20px;
-    font-weight: bold;
-    color: green;
+.notice {
+    margin-top: 15px;
 }
