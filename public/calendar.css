@@ -1,0 +1,58 @@
+.ls-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.ls-wrapper h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #6f42c1;
+}
+
+.ls-fecha {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ls-horarios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ls-horario {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.ls-horario:hover {
+    background: #e5dff5;
+}
+
+.ls-horario.activo {
+    background: #6f42c1;
+    color: #fff;
+    border-color: #6f42c1;
+}
+
+.ls-confirmacion {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
